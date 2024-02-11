@@ -1,0 +1,16 @@
+push constant 3
+pop temp 0
+label LOOP
+push temp 0
+push constant 0
+eq
+if-goto END
+push temp 0
+push constant 1
+sub
+pop temp 0
+goto LOOP
+label END
+goto END
+
+

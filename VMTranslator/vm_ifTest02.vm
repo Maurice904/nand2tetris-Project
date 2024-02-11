@@ -1,0 +1,5 @@
+label LOOP
+push constant 1
+push constant 0
+gt
+if-goto LOOP

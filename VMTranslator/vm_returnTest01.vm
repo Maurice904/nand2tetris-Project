@@ -1,0 +1,8 @@
+push constant 1
+push constant 2
+call f.add 2
+function f.add 2
+push argument 0
+push argument 1
+add
+return
